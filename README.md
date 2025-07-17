@@ -27,6 +27,10 @@ Backend Developer Note
 All other components (e.g., Journal Listings, Search, Filters, Analytics) are using placeholder/mock data. Please expose corresponding API endpoints for full integration:
 
 Journals list
+Articles List
+Artciles Submit
+
+Journals & Articles submission stages
 
 Search filters
 
@@ -46,7 +50,7 @@ MIT
 ```markdown
 # Message to Backend Developer
 
-Hi [Dev’s Name],
+Hi Ron,
 
 The frontend dashboard has been fully Dockerized and pushed to GitHub.
 
@@ -55,13 +59,15 @@ Only the `Submit Journal` page is currently using an actual API endpoint. The re
 
 To proceed with full integration, we need the following API endpoints:
 
-- Journals list (GET)
+- User Journals list (GET)
+- User Articles list (GET)
+- Iser Articles(POST)
 - Journal details by ID (GET)
 - Advanced search and filters (GET/POST)
 - Analytics/metrics data (GET)
 - Indexing, language, disciplines, and country data (GET)
 
-Let me know when those are available or if you need example payloads.
+Let me know when those are available .
 
-Thanks!  
+Thanks 
 — Michael
